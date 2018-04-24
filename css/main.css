@@ -1,0 +1,334 @@
+
+*
+{
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Helvetica', sans-serif;
+	color: #2a2a2a;
+}
+header
+{
+	
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size:24px;
+	padding:75px 0;
+}
+
+.hidden
+{
+	display: none !important;
+}
+
+.active
+{
+	opacity: 1 !important;
+}
+
+#con
+{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+/**portfolio**/
+
+#portfolio
+{
+	display: flex;
+	flex-wrap:wrap;
+	padding:5px;
+}
+
+#portfolio a
+{
+	width: 25%;
+	
+	padding:5px;
+}
+#portfolio img
+{
+	max-width: 100%;
+	transition: opacity 0.2s ease;
+}
+
+#portfolio img:hover
+{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+#workdetail
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#workdetail #detailtxt, #workdetail #slideshow
+{
+	width:50%;
+	padding:10px;
+}
+
+#slideshow img
+{
+	max-width: 100%;
+	margin:0 auto;
+}
+
+#workdetail h2
+{
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding:10px 0;
+}
+
+#workdetail p
+{
+	padding:10px 0;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	font-size:14px;
+	margin-bottom:40px; 
+}
+
+/**About**/
+
+#about
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#aboutimg, #abouttxt
+{
+	width:50%;
+	padding:10px;
+}
+
+#aboutimg img
+{
+	max-width: 100%;
+}
+
+#about h2
+{
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding:10px 0;
+}
+
+#about p
+{
+	padding:10px 0;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	font-size:14px;
+	margin-bottom:40px; 
+}
+
+#resume, #github
+{
+	color:#fff;
+	background-color: #2a2a2a;
+	padding:15px;
+	font-size:14px;
+	transition: opacity 0.2s ease;
+	margin:10px 0;
+}
+
+#resume:hover, #github:hover
+{
+	opacity: 0.5;
+}
+
+/**Contact**/
+#contact
+{
+	display: flex;
+}
+
+#contact a
+{
+	display: block;
+	padding:10px 0;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	font-size:14px;
+}
+
+#contactinfo
+{
+	width:50%;
+	padding:10px;
+}
+
+#social
+{
+	width: 50%;
+	margin-top: 20px;
+	display: flex;
+}
+
+#social img
+{
+	width:32px;
+	height:32px;
+	border-radius: 16px;
+	margin-right:20px;
+	transition: opacity 0.2s ease;
+}
+
+#social img:hover
+{
+	opacity: 0.5;
+}
+
+#contact h2
+{
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding:10px 0;
+}
+
+#contact p
+{
+	padding:10px 0;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	font-size:14px;
+	margin-bottom:10px; 
+}
+
+#contact form
+{
+	width:50%;
+	padding:10px;
+	margin-top:75px;
+}
+
+input, textarea
+{
+	width: 100%;
+	border:none;
+	border-bottom: 1px solid #2a2a2a;
+	margin:10px 0;
+	padding:10px;
+	max-width: 470px;
+}
+input[placeholder], textarea[placeholder]
+{
+	font-size: 14px;
+}
+
+textarea
+{
+	height: 42px;
+}
+
+input[type='submit']
+{
+	width: auto;
+	color:#fff;
+	background-color: #2a2a2a;
+	padding:15px;
+	font-size:14px;
+	transition: opacity 0.2s ease;
+	margin:10px 0;
+	float: right;
+}
+
+input[type='submit']:hover
+{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/**Footer**/
+
+footer
+{
+	text-align: center;
+}
+
+footer p
+{
+	font-size:12px;
+}
+
+#footerlinks
+{
+	background-color: #2a2a2a;
+	padding:10px 0;
+	margin-top: 50px;
+}
+
+#footerlinks a
+{
+	color:#fff;
+	opacity: 0.5;
+	padding:0 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: opacity 0.2s ease;
+}
+
+#footerlinks a:hover
+{
+	opacity: 1;
+}
+
+@media screen and (max-width: 600px){
+	 #about, #contact
+	{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	#portfolio img
+	{
+		width: 50%;
+	}
+
+	#aboutimg, #abouttxt
+	{
+		width:100%;
+		padding:10px;
+	}
+
+	#contact form
+	{
+		width:100%;
+		padding:10px;
+		margin-top:75px;
+	}
+
+	#contactinfo
+	{
+		width:100%;
+		padding:10px;
+	}
+}
+
+/**Work details**/
+
+#back:hover
+{
+	cursor: pointer;
+}
+
+#photos
+{
+	width:50%;
+}
+
+#photos img
+{
+	width: 300px;
+}

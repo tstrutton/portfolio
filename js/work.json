@@ -1,0 +1,113 @@
+[
+	{
+		"title":"Breathe",
+		"enabled":true,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"breathe.pdf",
+		"photos":[
+			"breathe/breathe-home.jpg",
+			"breathe/breathe-product.jpg",
+			"breathe/breathe-product-mobile.jpg",
+			"breathe/breathe-products-mobile.jpg"
+		],
+		"client":"John Bennett"
+	},
+	{
+		"title":"Just Ask Promo",
+		"enabled":false,
+		"blurb":"something here",
+		"mainphoto":"justask-promo/justask-main.jpg",
+		"github":"",
+		"brand":"",
+		"photos":[
+			"justask-promo/justask-imac.jpg",
+			"justask-promo/justask-mobile.jpg"
+		],
+		"client":"Rob Haaf, Marco Deluca"
+	},
+	{
+		"title":"Just Ask",
+		"enabled":true,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"https://github.com/tstrutton/JustAsk",
+		"brand":"",
+		"photos":[
+			"justask/justask-alert.jpg",
+			"justask/justask-register.jpg",
+			"justask/justask-chat.jpg",
+			"justask/justask-alert-mobile.jpg",
+			"justask/justask-chat-mobile.jpg",
+			"justask/justask-signin-mobile.jpg"
+		],
+		"client":"Rob Haaf"
+	},
+	{
+		"title":"Yummy",
+		"enabled":true,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"yummy-app.pdf",
+		"photos":[
+			"yummy/yummy-recipe.jpg",
+			"yummy/yummy-recipe-mobile.jpg",
+			"yummy/yummy-home-mobile.jpg",
+			"yummy/yummy-home.jpg"
+			
+		],
+		"client":"Fanshawe College"
+	},
+	{
+		"title":"Minecraft",
+		"enabled":false,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"",
+		"photos":[
+		],
+		"client":"Myself"
+	},
+	{
+		"title":"New Living",
+		"enabled":false,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"",
+		"photos":[],
+		"client":"Marco Deluca"
+	},
+	{
+		"title":"Champion Search",
+		"enabled":true,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"",
+		"photos":[
+			"champsearch/lol-champ-menu.jpg",
+			"champsearch/lol-home.jpg",
+			"champsearch/lol-results.jpg"
+		],
+		"client":"Myself"
+	},
+	{
+		"title":"EarthScope",
+		"enabled":true,
+		"blurb":"something here",
+		"mainphoto":"350x350.png",
+		"github":"",
+		"brand":"",
+		"photos":[
+			"earthscope-promo/earthscope-home.jpg",
+			"earthscope-promo/earthscope-home-mobile.jpg",
+			"earthscope-promo/earthscope-features-mobile.jpg",
+			"earthscope-promo/earthscope-question.jpg"
+		],
+		"client":"Fanshwe College"
+	}
+]
